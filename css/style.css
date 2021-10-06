@@ -123,8 +123,47 @@ nav li a {
     font-size: 25px;
     vertical-align: middle;
 }
+
+/* ********* main ********* */
+
+.sezione {
+    margin-top: 30px;
+}
+.sezione .colonna-img{
+    float: left;
+    width: 60%;
+}
+
+.sezione .colonna-text {
+    margin-top: 40px;
+    float: left;
+    width: 40%;
+}
 /* ********* debug ********* */
 
+.debug .sezione {
+    background-color: green;
+    /* height: 500px; */
+    
+
+}
+.debug .sezione .colonna-img {
+    
+    /* height: 100%; */
+    background-color: blue;
+
+
+}
+/* .colonna-img img {
+    object-fit: cover;
+}  */
+.debug .sezione .colonna-text {
+    background-color: red;
+    /* height: 100%; */
+
+    
+    
+}
 
 /* #jumbo {
     background-image: url("../img/jumbo.png");
@@ -132,6 +171,6 @@ nav li a {
     background-size: cover;
 } */
 
-#jumbo .container {
+/* #jumbo .container {
     height: 100%;
-}
+} */
