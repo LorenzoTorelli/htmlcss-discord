@@ -13,6 +13,49 @@
     margin: 0 auto;
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* ********* header ********* */
+header {
+    height: 80px;
+    background-color: rgb(42,94,232);
+}
+
+.riga {
+    background-color: rgb(42,94,232);
+
+}
+#logo {
+    float: left;
+    width: 25%;
+}
+nav {
+    float: left;
+    width: 50%;
+    text-align: center;
+
+}
+.accedi {
+    float: left;
+    width: 25%;
+    text-align: right;
+
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+
 
 
 
@@ -20,13 +63,13 @@
 /* ********* debug ********* */
 
 
-.debug header {
+.debug .riga {
     height: 100px;
     background-color: yellow;
 }
 
 
-.debug header .container {
+.debug .riga .container {
     height: 100px;
     background-color: green;
     border: 1px solid black;
@@ -36,7 +79,6 @@
     background-image: url("../img/jumbo.png");
     height: 550px;
     background-size: cover;
-    /* background-repeat: no-repeat; */
 }
 
 #img-centrale .container {
