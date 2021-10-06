@@ -19,14 +19,27 @@
 
 /* ********* debug ********* */
 
-.debug .header {
+
+.debug header {
     height: 100px;
     background-color: yellow;
 }
 
 
-.debug .container {
+.debug header .container {
     height: 100px;
     background-color: green;
     border: 1px solid black;
+}
+
+#img-centrale {
+    background-image: url("../img/jumbo.png");
+    height: 550px;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+
+#img-centrale .container {
+    height: 100%;
+    background-color: rgba(red, red, red, 0.8);
 }
