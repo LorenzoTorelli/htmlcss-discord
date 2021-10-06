@@ -1,0 +1,32 @@
+
+/* ********* commnons ********* */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+
+
+/* ********* debug ********* */
+
+.debug .header {
+    height: 100px;
+    background-color: yellow;
+}
+
+
+.debug .container {
+    height: 100px;
+    background-color: green;
+    border: 1px solid black;
+}
