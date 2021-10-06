@@ -58,11 +58,11 @@ header {
 }
 
 /* ********* discord logo ********* */
-#logo {
+.logo {
     float: left;
     width: 25%;
 }
- #logo img {
+.logo img {
     vertical-align: middle;
 
  }
@@ -127,7 +127,7 @@ nav li a {
     margin-right: 20px;
 }
 
-#arrow {
+.arrow {
     font-size: 25px;
     vertical-align: middle;
 }
@@ -168,14 +168,19 @@ nav li a {
 
 .riga-top, .riga-bottom, #h3-title {
     text-align: center;
+    width: 70%;
+    margin:auto;
 }
 
 .u-image {
     margin-bottom: 50px;
 }
-
-
-
+.riga-top h2 {
+    font-size: 50px;
+}
+#bottone-viola {
+    margin-top: 50px;
+}
 /* ********* footer ********* */
 
 footer {
@@ -215,20 +220,50 @@ footer {
 #social {
     margin-top: 20px;
 }
+#social img {
+    color: white;
+}
+#ita #italia {
+    color: white;
+}
 .colonna-footer li {
     line-height: 30px;
     list-style: none;
 }
 
-.first {
+.colonna-footer .first {
     color: rgb(114, 137, 218);
 
+}
+#ita {
+    color: white;
 }
 .colonna-footer a {
     text-decoration: none;
     color: white;
     padding: 20px;
 }
+
+
+.footer-down {
+    margin-top: 40px;
+    border-top: 1px solid rgb(114, 137, 218);;
+    /* height: 50px; */
+    line-height: 20px;
+
+}
+.footer-down .logo {
+    margin-top: 20px;
+    width: 50%;
+}
+.footer-down .accedi {
+    /* text-align: right; */
+    width: 50%;
+    margin-top: 30px;
+
+}
+
+
 /* ********* debug ********* */
 /* .debug footer .container {
 
