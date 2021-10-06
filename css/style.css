@@ -38,6 +38,14 @@
     color: white;
 }
 
+.viola {
+    color: white;
+    background-color: rgb(142, 161, 225);
+}
+/* .bck {
+    background-color: grey;
+} */
+
 /* ********* header ********* */
 header {
     height: 80px;
@@ -88,9 +96,11 @@ nav li a {
 /* ********* jumbo ********* */
 #jumbo {
     background-image: url("../img/jumbo.png");
-    height: 550px;
+    height: 700px;
     background-size: cover;
     position: relative;
+    margin-bottom: 150px;
+
 }
 .title{
     text-align: center;
@@ -105,9 +115,7 @@ nav li a {
     font-size: 50px;
     font-weight: bolder;
     margin-bottom: 40px;
-
 }
-
 
 .btn-box {
     margin-top: 30px;
@@ -124,53 +132,142 @@ nav li a {
     vertical-align: middle;
 }
 
+
+
+
 /* ********* main ********* */
 
 .sezione {
-    margin-top: 30px;
+    margin-bottom: 150px;
+    /* background-image: url("../img/wave.svg") */
 }
+
 .sezione .colonna-img{
     float: left;
-    width: 60%;
+    width: 58%;
+    margin-right: 20px;
+    object-fit: cover;
 }
 
 .sezione .colonna-text {
+    margin-left: 20px;
+
     margin-top: 40px;
     float: left;
-    width: 40%;
+    width: 38%;
+}
+.sezione .colonna-text h2 {
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.sezione .colonna-text p {
+    font-size: 20px;
+
+}
+
+
+.riga-top, .riga-bottom, #h3-title {
+    text-align: center;
+}
+
+.u-image {
+    margin-bottom: 50px;
+}
+
+
+
+/* ********* footer ********* */
+
+footer {
+    background-color: rgb(35, 39, 42);
+    height: 500px;
+    padding: 60px;
+}
+
+.colonna-footer-1 {
+    float: left;
+    height: 200px;
+    width: 30%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.colonna-footer {
+    float: left;
+    /* height: 200px; */
+    width: 15%;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.colonna-footer-1  h3 {
+    margin-bottom: 50px;
+    font-size: 30px;
+    color: rgb(114, 137, 218);
+}
+
+#italia {
+    width: 30px;
+    margin-right: 10px;
+}
+
+#social {
+    margin-top: 20px;
+}
+.colonna-footer li {
+    line-height: 30px;
+    list-style: none;
+}
+
+.first {
+    color: rgb(114, 137, 218);
+
+}
+.colonna-footer a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
 }
 /* ********* debug ********* */
+/* .debug footer .container {
 
+}
 .debug .sezione {
     background-color: green;
-    /* height: 500px; */
+    height: 500px;
     
 
 }
 .debug .sezione .colonna-img {
-    
-    /* height: 100%; */
+    height: 100%;
     background-color: blue;
-
-
 }
-/* .colonna-img img {
+ .colonna-img img {
     object-fit: cover;
-}  */
+ }  
 .debug .sezione .colonna-text {
-    background-color: red;
-    /* height: 100%; */
+    background-color: red; 
+     height: 100%;  
+} 
 
-    
-    
-}
-
-/* #jumbo {
+#jumbo {
     background-image: url("../img/jumbo.png");
     height: 550px;
     background-size: cover;
-} */
+}
 
-/* #jumbo .container {
+#jumbo .container {
     height: 100%;
+}  */
+/* .debug .colonna-footer-1 {
+    background-color: rgb(42,94,232);
+    border: 1px solid black;
+}
+
+.debug .colonna-footer {
+    background-color: rgb(42,94,232);
+ 
+    border: 1px solid black;
+
 } */
